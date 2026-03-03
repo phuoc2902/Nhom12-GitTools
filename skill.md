@@ -1,0 +1,4 @@
+## Skills
+- HTML
+- CSS
+- JavaScript
