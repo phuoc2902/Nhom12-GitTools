@@ -1,56 +1,44 @@
+1. Trương Huy Phước
+Vai trò: LEADER
 
-Trương Huy Phước  -  2280613443 LEAD
-Review code, Merge code, phân chia công việc
+Nhánh làm việc: feature/lead-setup
 
-Vũ Gia Kiệt-2280601662 ""
+Commit nâng cao: Amend commit - (Đã hoàn thành)
 
-Trần Quốc Trung-2280603474 ""
+Remote Operations: Sync branch & Thay đổi remote URL (Đã hoàn thành)
 
-Nguyễn Ngọc Thanh Trường-22803492 ""
+2. Trần Quốc Trung
+Vai trò: DEVELOPER
 
-Lâm Nhật Khang-2280601396 ""
+Nhánh làm việc: feture/header (Lưu ý: sai chính tả chữ 'feature')
 
+Commit nâng cao: Cherry-pick một commit sang branch khác
 
+Remote Operations: Thay đổi remote URL (giả lập fork)
 
+3. Vũ Gia Kiệt
+Vai trò: DEVELOPER
 
-Bảng công việc
+Nhánh làm việc: (Trống)
 
-Thành viên: Phước (Lead)
+Commit nâng cao: Undo một commit
 
-Nhánh Feature: feature/setup
+Remote Operations: Thay đổi remote URL (giả lập fork)
 
-Nội dung Commit: "Initial project structure", "Add README members"
+4. Lâm Nhật Khang (Đã hoàn thành)
+Vai trò: DEVELOPER
 
-Thao tác nâng cao: Cherry-pick: Bốc 1 commit fix lỗi từ develop sang main.
+Nhánh làm việc: revert-6-feature/footer
 
-Thành viên: Kiệt
+Commit nâng cao: Revert một commit
 
-Nhánh Feature: feature/about
+Remote Operations: Thay đổi remote URL (giả lập fork)
 
-Nội dung Commit: "Add about.html", "Style about section"
+5. Nguyễn Ngọc Thanh Trường (Đã hoàn thành)
+Vai trò: DEVELOPER
 
-Thao tác nâng cao: Undo: Thực hiện commit xong bấm nút Undo ở góc dưới để sửa lại.
+Nhánh làm việc: feature/footer
 
-Thành viên: Trung
+Commit nâng cao: Squash ít nhất 2 commit - 
 
-Nhánh Feature: feature/header
-
-Nội dung Commit: "Create navigation bar", "Fix header responsive"
-
-Thao tác nâng cao: Amend: Commit xong, dùng tính năng Amend để đổi tên Message.
-
-Thành viên: Trường
-
-Nhánh Feature: feature/footer
-
-Nội dung Commit: "Add social icons", "Update contact info"
-
-Thao tác nâng cao: Squash: Tạo 2 commit nhỏ rồi gộp lại thành 1 commit duy nhất.
-
-Thành viên: Khang
-
-Nhánh Feature: feature/skills
-
-Nội dung Commit: "Add skills list", "Add progress bars"
-
-Thao tác nâng cao: Revert: Tạo 1 commit giả định bị lỗi, sau đó dùng Revert để đảo ngược.
+Remote Operations: View Pull Request/Merge Request trong Desktop (Đã hoàn thành)
