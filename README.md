@@ -19,7 +19,7 @@ Remote Operations: Thay đổi remote URL (giả lập fork)
 3. Vũ Gia Kiệt (Đã hoàn thành)
 Vai trò: DEVELOPER
 
-Nhánh làm việc: feature/u-gia-kiet
+Nhánh làm việc: feature/vu-gia-kiet
 
 Commit nâng cao: Undo một commit (Đã hoàn thành)
 
