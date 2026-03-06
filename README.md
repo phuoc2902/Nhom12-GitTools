@@ -16,14 +16,14 @@ Commit nâng cao: Cherry-pick một commit sang branch khác
 
 Remote Operations: Thay đổi remote URL (giả lập fork)
 
-3. Vũ Gia Kiệt
+3. Vũ Gia Kiệt (Đã hoàn thành)
 Vai trò: DEVELOPER
 
-Nhánh làm việc: (Trống)
+Nhánh làm việc: feature/u-gia-kiet
 
-Commit nâng cao: Undo một commit
+Commit nâng cao: Undo một commit (Đã hoàn thành)
 
-Remote Operations: Thay đổi remote URL (giả lập fork)
+Remote Operations: Thay đổi remote URL (giả lập fork) (Đã hoàn thành)
 
 4. Lâm Nhật Khang (Đã hoàn thành)
 Vai trò: DEVELOPER
