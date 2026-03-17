@@ -23,7 +23,7 @@ Nhánh làm việc: feature/vu-gia-kiet
 
 Commit nâng cao: Undo một commit (Đã hoàn thành)
 
-Remote Operations: Thay đổi remote URL (giả lập fork) (Đã hoàn thành)
+Remote Operations: Thay đổi remote URL (giả lập fork) 
 
 4. Lâm Nhật Khang (Đã hoàn thành)
 Vai trò: DEVELOPER
