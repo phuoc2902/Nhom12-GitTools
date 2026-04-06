@@ -107,6 +107,10 @@ Dự án đã được cấu hình CI/CD với GitHub Actions:
 - Trigger: Push vào nhánh `main`
 - 3 jobs: `build`, `test`, `deploy`
 
+Job `deploy` chỉ hoạt động khi repo có secrets Docker Hub cấu hình:
+- `DOCKERHUB_USERNAME`
+- `DOCKERHUB_TOKEN`
+
 Để chạy pipeline:
 1. Push code lên nhánh `main` của repository GitHub.
 2. Kiểm tra tab "Actions" để xem trạng thái pipeline.
