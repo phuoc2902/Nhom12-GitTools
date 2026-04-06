@@ -65,4 +65,6 @@ jobs:
         with:
           context: .
           push: true
-          tags: phuoc4/truonghuyphuoc:v1.0
+          tags: |
+            phuoc4/truonghuyphuoc:v1.2
+            phuoc4/truonghuyphuoc:latest
