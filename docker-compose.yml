@@ -1,0 +1,10 @@
+services:
+  web:
+    image: phuoc4/truonghuyphuoc:v1.0
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: nhom12-gittools-web
+    ports:
+      - "8080:80"
+    restart: unless-stopped

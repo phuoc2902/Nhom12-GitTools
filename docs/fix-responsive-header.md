@@ -1,3 +1,5 @@
+# Fix Responsive Header
+
 - Fix navbar overflow on small screens
 - Adjust padding and font size
 - Improve hamburger menu toggle behavior
