@@ -3,27 +3,55 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Nhom12-GitTools</title>
+  <title>Ghiền Game Store</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <div class="page">
-    <div class="card">
-      <h1>Hệ thống quản lý tài liệu Nhom12-GitTools (v1.2)</h1>
-      <p style="color: #28a745; font-weight: bold;">Status: CI/CD Pipeline Active</p>
-      <p>Đây là website static chạy bằng Nginx, phục vụ nội dung tài liệu và ghi chú dự án.</p>
-      <p>Để xem nội dung dự án, mở các file Markdown trong thư mục <code>docs/</code> và các tài liệu gốc.</p>
-      <ul>
-        <li><a href="docs/contact-info.md">Thông tin liên hệ</a></li>
-        <li><a href="docs/create-navigation-bar.md">Tạo thanh điều hướng</a></li>
-        <li><a href="docs/fix-responsive-header.md">Sửa lỗi Header tương thích</a></li>
-        <li><a href="docs/social-icons.md">Biểu tượng mạng xã hội</a></li>
-        <li><a href="docs/test-undo.md">Kiểm tra tính năng Hoàn tác</a></li>
-        <li><a href="docs/ci-cd-screenshots-guide.md">Hướng dẫn chụp ảnh CI/CD</a></li>
-        <li><a href="docs/docker-desktop-screenshots.md">Ảnh chụp Docker Desktop</a></li>
-        <li><a href="docs/pipeline-failure-guide.md">Hướng dẫn xử lý lỗi Pipeline</a></li>
-      </ul>
+  <header>
+    <div class="header-container">
+      <div class="logo">Ghiền Game Store</div>
+      <nav>
+        <ul>
+          <li><a href="#">Đăng Nhập</a></li>
+          <li><a href="#">Trang chủ</a></li>
+          <li><a href="#">Giới thiệu</a></li>
+          <li><a href="#">Giỏ Hàng</a></li>
+          <li><a href="#">Sản phẩm</a></li>
+        </ul>
+      </nav>
     </div>
-  </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <img src="https://images.unsplash.com/photo-1612287230202-1ff1d85d1bdf?q=80&w=2071&auto=format&fit=crop" alt="Hero Gaming">
+    </section>
+
+    <div class="content-container">
+      <article class="news-item reverse">
+        <div class="news-text">
+          <h2>Review Nintendo Switch OLED: Có đáng để nâng cấp ở thời điểm hiện tại?</h2>
+          <p>Nếu bạn đang phân vân có nên sở hữu Nintendo Switch OLED trong năm 2026, đây là 3 lý do ngắn gọn nhất giúp bạn quyết định.</p>
+          <a href="#" class="read-more">Xem thêm</a>
+          <span class="date">Date: 01 - 01 - 2026</span>
+        </div>
+        <div class="news-image">
+          <img src="https://images.unsplash.com/photo-1578303512597-81e6cc155b3e?q=80&w=2070&auto=format&fit=crop" alt="Nintendo Switch">
+        </div>
+      </article>
+
+      <article class="news-item">
+        <div class="news-image">
+          <img src="https://images.unsplash.com/photo-1606144042614-b2417e99c4e3?q=80&w=2070&auto=format&fit=crop" alt="PS5 vs Xbox">
+        </div>
+        <div class="news-text">
+          <h2>PS5 vs Xbox Series X: Đâu là "ông vua" console năm 2026?</h2>
+          <p>Bước sang năm 2026, cuộc chiến giữa PlayStation 5 (PS5) và Xbox Series X vẫn chưa có dấu hiệu hạ nhiệt.</p>
+          <a href="#" class="read-more">Xem thêm</a>
+          <span class="date">Date: 03 - 01 - 2026</span>
+        </div>
+      </article>
+    </div>
+  </main>
 </body>
 </html>
