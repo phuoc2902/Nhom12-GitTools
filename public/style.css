@@ -4,16 +4,17 @@ body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background-color: #f4f4f4;
   color: #333;
+  font-size: 18px; /* Larger base font size */
 }
 
 header {
-  background-color: #ff0040; /* Red from the image */
+  background-color: #ff0040;
   color: white;
-  padding: 15px 0;
+  padding: 20px 0;
 }
 
 .header-container {
-  max-width: 1100px;
+  max-width: 1200px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -22,7 +23,7 @@ header {
 }
 
 .logo {
-  font-size: 28px;
+  font-size: 36px; /* Much larger logo */
   font-weight: bold;
 }
 
@@ -34,35 +35,37 @@ nav ul {
 }
 
 nav ul li {
-  margin-left: 20px;
+  margin-left: 30px;
 }
 
 nav ul li a {
   color: white;
   text-decoration: none;
-  font-size: 14px;
+  font-size: 20px; /* Larger nav links */
+  font-weight: 500;
 }
 
 .hero img {
   width: 100%;
-  height: auto;
+  max-height: 600px; /* Limit hero height */
+  object-fit: cover;
   display: block;
 }
 
 .content-container {
-  max-width: 1100px;
-  margin: 40px auto;
+  max-width: 1200px;
+  margin: 60px auto;
   padding: 0 20px;
 }
 
 .news-item {
   display: flex;
   background: white;
-  margin-bottom: 40px;
-  border-radius: 8px;
+  margin-bottom: 60px;
+  border-radius: 12px;
   overflow: hidden;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-  align-items: center;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  align-items: stretch;
 }
 
 .news-item.reverse {
@@ -71,6 +74,7 @@ nav ul li a {
 
 .news-image {
   flex: 1;
+  min-width: 50%; /* Ensure image takes half space */
 }
 
 .news-image img {
@@ -82,46 +86,63 @@ nav ul li a {
 
 .news-text {
   flex: 1;
-  padding: 40px;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .news-text h2 {
   margin-top: 0;
-  font-size: 24px;
-  line-height: 1.3;
+  font-size: 32px; /* Much larger title */
+  line-height: 1.2;
+  margin-bottom: 25px;
 }
 
 .news-text p {
+  font-size: 20px; /* Larger description */
   line-height: 1.6;
-  color: #666;
-  margin: 20px 0;
+  color: #555;
+  margin-bottom: 30px;
 }
 
 .read-more {
   display: inline-block;
   background: #333;
   color: white;
-  padding: 10px 20px;
+  padding: 15px 30px;
   text-decoration: none;
-  border-radius: 4px;
+  border-radius: 6px;
   font-weight: bold;
-  margin-bottom: 15px;
+  font-size: 18px;
+  margin-bottom: 20px;
+  align-self: flex-start;
 }
 
 .date {
   display: block;
-  font-size: 14px;
+  font-size: 16px;
   color: #999;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 992px) {
   .news-item, .news-item.reverse {
     flex-direction: column;
   }
+  .news-image {
+    width: 100%;
+  }
   .header-container {
     flex-direction: column;
+    text-align: center;
   }
   nav ul {
-    margin-top: 15px;
+    margin-top: 20px;
+  }
+  nav ul li {
+    margin: 0 15px;
+  }
+  .logo {
+    font-size: 32px;
   }
 }
