@@ -113,3 +113,5 @@ Dự án đã được cấu hình CI/CD với GitHub Actions:
 3. Chụp screenshot trạng thái thành công/thất bại cho báo cáo.
 
 Xem chi tiết hướng dẫn chụp screenshot tại `docs/ci-cd-screenshots-guide.md`.
+
+# Trigger CI/CD
